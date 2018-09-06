@@ -75,7 +75,7 @@ var handlers = {};
 
 // Sample handler
 handlers.hello = function(data, callback) {
-	callback(200, { Greeting: 'Hi, welcome to our application.' });
+	callback(200, { Greeting: 'Hello world.' });
 };
 
 // Not found handler
